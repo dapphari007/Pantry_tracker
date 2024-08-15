@@ -1,0 +1,17 @@
+[debug] [2024-07-31T14:15:35.213Z] ----------------------------------------------------------------------
+[debug] [2024-07-31T14:15:35.214Z] Command:       /Users/srinivasareddypadala/.nvm/versions/node/v18.17.0/bin/node /Users/srinivasareddypadala/.nvm/versions/node/v18.17.0/bin/firebase login
+[debug] [2024-07-31T14:15:35.214Z] CLI Version:   13.14.2
+[debug] [2024-07-31T14:15:35.214Z] Platform:      darwin
+[debug] [2024-07-31T14:15:35.214Z] Node Version:  v18.17.0
+[debug] [2024-07-31T14:15:35.215Z] Time:          Wed Jul 31 2024 19:45:35 GMT+0530 (India Standard Time)
+[debug] [2024-07-31T14:15:35.215Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-31T14:15:35.216Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-07-31T14:15:35.936Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-07-31T14:15:35.937Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-07-31T14:15:35.938Z] Failed to fetch MOTD Error: EACCES: permission denied, mkdir '/Users/srinivasareddypadala/.config/configstore'
+You don't have access to this file.
+
